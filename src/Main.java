@@ -3,7 +3,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         // Create an instance of GestionListe
-        GestionListe gestionListe = new GestionListe();
+        GestionList gestionListe = new GestionList();
 
         // Test: Alimenter la liste
         gestionListe.alimenterListe();
