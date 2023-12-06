@@ -3,11 +3,11 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-public class GestionListe {
+public class GestionList {
     private List<Personne> listePersonnes;
 
     // Constructeur
-    public GestionListe() {
+    public GestionList() {
         listePersonnes = new ArrayList<>();
     }
 
