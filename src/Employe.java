@@ -37,8 +37,7 @@ public class Employe extends Personne {
     // Méthode compareTo pour l'interface Comparable (basée sur le poste)
     @Override
     public int compareTo(Personne autrePersonne) {
-        if (autrePersonne instanceof Employe) {
-            Employe autreEmploye = (Employe) autrePersonne;
+        if (autrePersonne instanceof Employe autreEmploye) {
             return this.poste.compareTo(autreEmploye.poste);
         } else {
             // Vous pouvez définir la logique de comparaison pour les autres types de Personne
